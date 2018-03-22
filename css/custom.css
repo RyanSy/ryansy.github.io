@@ -1,0 +1,202 @@
+ body {
+   font-family: 'Montserrat',Helvetica,Arial,sans-serif !important;
+}
+
+.hidden {
+  display: none;
+}
+
+#logo {
+    font-family: 'Montserrat', sans-serif !important;
+    color: white !important;
+    font-size: 28px !important;
+}
+
+#mainNav {
+  font-size: auto;
+  background-color: black !important;
+  padding-top: 5px !important;
+  padding-bottom: 5px !important;
+}
+
+a:focus, a:hover, a#logo:focus, a#logo:hover {
+  color: #384047 !important;
+}
+
+#mainNav .navbar-toggler {
+  background-color: black;
+}
+
+button#menuButton:focus, button#menuButton:hover, button#sendMessageButton:focus, button#sendMessageButton:hover {
+  color: #384047 !important;
+}
+
+a.nav-link:focus {
+  color: gray !important;
+}
+
+:focus {
+    outline: auto 5px -webkit-focus-ring-color !important;
+}
+
+.h1, h1 {
+  font-size: 5rem !important;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+header.masthead {
+  background-image: url("../img/JCpic.jpg");
+  /* background-color: black !important; */
+  padding-top: 12rem;
+  padding-bottom: 10rem;
+  height: 640px !important;
+}
+
+header.masthead .link-social {
+  font-size: 2rem;
+  color: white;
+}
+
+header.masthead .link-social:active,header.masthead .link-social:focus,header.masthead .link-social:hover {
+  text-decoration: none;
+  color: #384047;
+}
+
+#portfolio .portfolio-item a.portfolio-link:focus .portfolio-hover {
+  opacity: 1 !important;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+
+.portfolio-item {
+  padding: 1px; !important;
+}
+
+.portfolio-item, .portfolio-modal-image {
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #eeeeee !important;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  max-width: 480px;
+  border-style: solid !important;
+  border-width: 1px !important;
+  border-color: #eeeeee !important;
+}
+
+#portfolio .portfolio-item {
+    margin: 0 0 0px !important;
+}
+
+@media (min-width: 767px)
+#portfolio .portfolio-item {
+    margin: 0 0 0px !important;
+}
+
+/* .portfolio-modal .modal-content {
+    padding: 100px 0 !important;
+    min-height: 100% !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    text-align: center !important;
+    background-clip: border-box !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.portfolio-modal .modal-content h2 {
+    margin: 0 !important;
+    font-size: 3em !important;
+}
+
+.portfolio-modal .modal-content img {
+    margin-bottom: 30px !important;
+}
+
+.portfolio-modal .modal-content .item-details {
+    margin: 30px 0 !important;
+}
+
+.portfolio-modal .close-modal {
+    position: absolute !important;
+    top: 25px !important;
+    right: 25px !important;
+    width: 75px !important;
+    height: 75px !important;
+    background-color: transparent !important;
+    cursor: pointer !important;
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3 !important;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051 !important;
+    width: 1px !important;
+    height: 75px !important;
+    margin-left: 35px !important;
+    background-color: #2c3e50 !important;
+    -webkit-transform: rotate(45deg) !important;
+    -ms-transform: rotate(45deg) !important;
+    transform: rotate(45deg) !important;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052 !important;
+    width: 1px !important;
+    height: 75px !important;
+    background-color: #2c3e50 !important;
+    -webkit-transform: rotate(90deg) !important;
+    -ms-transform: rotate(90deg) !important;
+    transform: rotate(90deg) !important;
+}
+
+.portfolio-modal .modal-backdrop {
+    display: none !important;
+    opacity: 0 !important;
+} */
+
+/* ========== TO DO!!! ========== */
+/* remove focus from portfolio thumnail when clicked */
+
+section#contact {
+  background-color: #f8f9fa;
+}
+
+section#contact .section-heading {
+  color: black !important;
+}
+
+button#sendMessageButton {
+  background-color: #212529;
+}
+
+button#sendMessageButton:focus {
+  background-color: #7f8990;
+}
+
+button#sendMessageButton:hover {
+    border: 0px;
+}
+
+@media (min-width: 992px) {
+  header.masthead .link-social {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 991.98px) {
+  a.nav-link.js-scroll-trigger {
+    font-size: 2rem !important;
+  }
+}
