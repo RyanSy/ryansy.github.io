@@ -1,0 +1,35 @@
+{
+    "title": "Portfolio",
+    "name": "ryansy-dot-com",
+    "version": "1.0.0",
+    "description": "My online portfolio.",
+    "keywords": [
+        "full",
+        "stack",
+        "web",
+        "developer",
+        "portfolio"
+    ],
+    "homepage": "https://ryansy.com",
+    "license": "MIT",
+    "author": "Ryan Sy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/RyanSy/ryansy.github.io.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.0.0",
+        "font-awesome": "4.7.0",
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "2.23.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-header": "2.0.1",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "3.0.0"
+    }
+}
