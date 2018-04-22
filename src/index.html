@@ -50,10 +50,10 @@
           <ul class="navbar-nav navbar-dark text-uppercase ml-auto text-right">
             <br>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Projects</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -87,281 +87,13 @@
           </li>
         </ul>
         <!-- End of Social Links -->
+
+        <!-- Arrow Down -->
+        <a href="#about"><i class="fa fa-angle-double-down">
+          </i>
+        </a>
       </div>
     </header>
-
-    <!-- Portfolio Grid -->
-    <section class="bg-light" id="portfolio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Projects</h2>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/music-analyzer.png" alt="Music Analyzer">
-            </a>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/liri.png" alt="">
-            </a>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/nvs.png" alt="NVS">
-            </a>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/rhpm.png" alt="Request Header Parser Microservice">
-            </a>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/react-vs-angular.png" alt="React Vs. Angular">
-            </a>
-          </div>
-          <div class="col-md-6 col-sm-6 portfolio-item">
-            <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <i class="fa fa-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/jsdrums.png" alt="JS Drums">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Portfolio Modals -->
-    <!-- Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h3>Music Analyzer</h3>
-                  <br>
-                  <div class="portfolio-modal-image">
-                    <a href="https://music-analyzer.herokuapp.com/"><img class="img-fluid d-block mx-auto" src="img/portfolio/music-analyzer.png" alt="Music Analyzer"></a>
-                  </div>
-                  <br>
-                  <p>An application that utilizes Spotify's Web API to return audio features of a specified song.</p>
-                  <p>
-                    <a href="https://music-analyzer.herokuapp.com/">https://music-analyzer.herokuapp.com/</a>
-                  </p>
-                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h3>Liri</h3>
-                  <br>
-                  <div class="portfolio-modal-image">
-                    <a href="https://www.npmjs.com/package/liri"><img class="img-fluid d-block mx-auto" src="img/portfolio/liri.png" alt="Liri"></a>
-                  </div>
-                  <br>
-                  <p>Liri stands for Language Interpretation and Recognition Interface. It is a NodeJS CLI that takes in parameters and outputs data. For example, typing "liri spotify thisSong" at the command line will reutrn Spotify data about "thisSong."</p>
-                  <p>
-                    <a href="https://www.npmjs.com/package/liri">https://www.npmjs.com/package/liri</a>
-                  </p>
-                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 3-->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h3>NVS</h3>
-                  <br>
-                  <div class="portfolio-modal-image">
-                    <a href="https://nvs.herokuapp.com"><img class="img-fluid d-block mx-auto" src="img/portfolio/nvs.png" alt="NVS"></a>
-                  </div>
-                  <br>
-                  <p>NVS (News Vs. Stocks) is an application that plots New York Times articles along a stock chart, allowing users to observe price changes after an article is released.</p>
-                  <p>
-                    <a href="https://nvs.herokuapp.com">https://nvs.herokuapp.com</a>
-                  </p>
-                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 4-->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h3>Request Header Parser Microservice</h3>
-                  <br>
-                  <div class="portfolio-modal-image">
-                    <a href="https://rhpm-project.herokuapp.com"><img class="img-fluid d-block mx-auto" src="img/portfolio/rhpm.png" alt="Request Header Parser Microservice"></a>
-                  </div>
-                  <br>
-                  <p>A <a href="https://www.freecodecamp.org/challenges/request-header-parser-microservice">coding challenge from freeCodeCamp</a> to implement this user story: I can get the IP address, language and operating system for my browser.</p>
-                  <p>
-                    <a href="https://rhpm-project.herokuapp.com">https://rhpm-project.herokuapp.com</a>
-                  </p>
-                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 5-->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h3>React Vs. Angular</h3>
-                  <br>
-                  <div class="portfolio-modal-image">
-                    <a href="http://react-vs-angular.surge.sh/"><img class="img-fluid d-block mx-auto" src="img/portfolio/react-vs-angular.png" alt="React Vs. Angular"></a>
-                  </div>
-                  <br>
-                  <p>A tic tac toe game based on the offial React tutorial, with additional features implemented. </p>
-                  <p>
-                    <a href="http://react-vs-angular.surge.sh/">http://react-vs-angular.surge.sh/</a>
-                  </p>
-                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modal 5-->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h3>JS Drums</h3>
-                  <br>
-                  <div class="portfolio-modal-image">
-                    <a href="http://jsdrums.surge.sh/"><img class="img-fluid d-block mx-auto" src="img/portfolio/jsdrums.png" alt="JS Drums"></a>
-                  </div>
-                  <br>
-                  <p>A drum kit that can be played via a computer keyboard. Built with vanilla Javascript.</p>
-                  <p>
-                    <a href="http://jsdrums.surge.sh/">http://jsdrums.surge.sh/</a>
-                  </p>
-                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
 
     <!-- About -->
     <section id="about">
@@ -379,12 +111,373 @@
                 <li class="lead">Bachelor of Science degree in Finance from Rutgers Business School</li>
               </ul>
             </p>
-            <p class="lead">When I'm not hacking away and staring at a computer screen, I am usually curating my record collection - which can sometimes involve browsing through Discogs, resulting in me staring at a computer screen, again.</p>
-            <p></p>
+            <p class="lead">Right now, I'm offering to build small websites for free, preferably if they purchase a domain from Namecheap using my link below =)</p>
+            <br>
+            <p class="lead text-center">
+              <a href="http://www.tkqlhce.com/click-8790240-13269564" target="_blank">
+                <img src="http://www.tqlkg.com/image-8790240-13269564" width="336" height="280" alt="Create your Web Presence with Namecheap" border="0"/>
+              </a>
+            </p>
           </div>
         </div>
       </div>
     </section>
+
+    <!-- Portfolio Grid -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Projects</h2>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#irisRecordsModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/irisrecords.png" alt="Iris Records">
+            </a>
+          </div>
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#mrcModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/mrc.png" alt="Montclair Riding Co.">
+            </a>
+          </div>
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#musicAnalyzerModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/music-analyzer.png" alt="Music Analyzer">
+            </a>
+          </div>
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#liriModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/liri.png" alt="Liri">
+            </a>
+          </div>
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#nvsModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/nvs.png" alt="NVS">
+            </a>
+          </div>
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#rhpmModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/rhpm.png" alt="Request Header Parser Microservice">
+            </a>
+          </div>
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#reactVsAngularModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/react-vs-angular.png" alt="React Vs. Angular">
+            </a>
+          </div>
+          <div class="col-md-6 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal" href="#jsDrumsModal">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/jsdrums.png" alt="JS Drums">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Modals -->
+    <!-- Iris Recordds Modal -->
+    <div class="portfolio-modal modal" id="irisRecordsModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h3>Iris Records</h3>
+                  <br>
+                  <div class="portfolio-modal-image">
+                    <a href="https://irisrecordsjc.com/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/irisrecords.png" alt="Music Analyzer"></a>
+                  </div>
+                  <br>
+                  <p>E-Commerce site (using Shopify) for a music store based in Jersey City, NJ</p>
+                  <p>
+                    <a href="https://irisrecordsjc.com/" target="_blank">https://irisrecordsjc.com/</a>
+                  </p>
+                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Music Analyzer Modal -->
+    <div class="portfolio-modal modal" id="mrcModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h3>Montclair Riding Co.</h3>
+                  <div class="portfolio-modal-image">
+                    <a href="https://montclairridingco.com/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/mrc.png" alt="Music Analyzer"></a>
+                  </div>
+                  <br>
+                  <p>E-commerce site (using Big Commerce) for a boutique motorcycle shop based in Montclair, NJ.</p>
+                  <p>
+                    <a href="https://montclairridingco.com/" target="_blank">https://montclairridingco.com/</a>
+                  </p>
+                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Music Analyzer Modal -->
+    <div class="portfolio-modal modal" id="musicAnalyzerModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h3>Music Analyzer</h3>
+                  <br>
+                  <div class="portfolio-modal-image">
+                    <a href="https://music-analyzer.herokuapp.com/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/music-analyzer.png" alt="Music Analyzer"></a>
+                  </div>
+                  <br>
+                  <p>An application that utilizes Spotify's Web API to return audio features of a specified song.</p>
+                  <p>
+                    <a href="https://music-analyzer.herokuapp.com/" target="_blank">https://music-analyzer.herokuapp.com/</a>
+                  </p>
+                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Liri Modal -->
+    <div class="portfolio-modal modal" id="liriModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h3>Liri</h3>
+                  <br>
+                  <div class="portfolio-modal-image">
+                    <a href="https://www.npmjs.com/package/liri" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/liri.png" alt="Liri"></a>
+                  </div>
+                  <br>
+                  <p>Liri stands for Language Interpretation and Recognition Interface. It is a NodeJS CLI that takes in parameters and outputs data. For example, typing "liri spotify thisSong" at the command line will reutrn Spotify data about "thisSong."</p>
+                  <p>
+                    <a href="https://www.npmjs.com/package/liri" target="_blank">https://www.npmjs.com/package/liri</a>
+                  </p>
+                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- NVS Modal-->
+    <div class="portfolio-modal modal" id="nvsModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h3>NVS</h3>
+                  <br>
+                  <div class="portfolio-modal-image">
+                    <a href="https://nvs.herokuapp.com" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/nvs.png" alt="NVS"></a>
+                  </div>
+                  <br>
+                  <p>NVS (News Vs. Stocks) is an application that plots New York Times articles along a stock chart, allowing users to observe price changes after an article is released.</p>
+                  <p>
+                    <a href="https://nvs.herokuapp.com" target="_blank">https://nvs.herokuapp.com</a>
+                  </p>
+                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- RHPM Modal -->
+    <div class="portfolio-modal modal" id="rhpmModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h3>Request Header Parser Microservice</h3>
+                  <br>
+                  <div class="portfolio-modal-image">
+                    <a href="https://rhpm-project.herokuapp.com" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/rhpm.png" alt="Request Header Parser Microservice"></a>
+                  </div>
+                  <br>
+                  <p>A <a href="https://www.freecodecamp.org/challenges/request-header-parser-microservice" target="_blank">coding challenge from freeCodeCamp</a> to implement this user story: I can get the IP address, language and operating system for my browser.</p>
+                  <p>
+                    <a href="https://rhpm-project.herokuapp.com" target="_blank">https://rhpm-project.herokuapp.com</a>
+                  </p>
+                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- React Vs. Angular Modal-->
+    <div class="portfolio-modal modal" id="reactVsAngularModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h3>React Vs. Angular</h3>
+                  <br>
+                  <div class="portfolio-modal-image">
+                    <a href="http://react-vs-angular.surge.sh/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/react-vs-angular.png" alt="React Vs. Angular"></a>
+                  </div>
+                  <br>
+                  <p>A tic tac toe game based on the offial React tutorial, with additional features implemented. </p>
+                  <p>
+                    <a href="http://react-vs-angular.surge.sh/" target="_blank">http://react-vs-angular.surge.sh/</a>
+                  </p>
+                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  JS Drums Modal -->
+    <div class="portfolio-modal modal" id="jsDrumsModal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl"></div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 mx-auto">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <h3>JS Drums</h3>
+                  <br>
+                  <div class="portfolio-modal-image">
+                    <a href="http://jsdrums.surge.sh/" target="_blank"><img class="img-fluid d-block mx-auto" src="img/portfolio/jsdrums.png" alt="JS Drums"></a>
+                  </div>
+                  <br>
+                  <p>A drum kit that can be played via a computer keyboard. Built with vanilla Javascript.</p>
+                  <p>
+                    <a href="http://jsdrums.surge.sh/" target="_blank">http://jsdrums.surge.sh/</a>
+                  </p>
+                  <button class="btn btn-primary close-modal-button" data-dismiss="modal" type="button">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Contact -->
     <section id="contact">

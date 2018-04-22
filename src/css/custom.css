@@ -43,7 +43,7 @@ a.nav-link:focus {
 }
 
 section {
- padding-top: 80px;
+ padding-top: 125px;
  padding-bottom: 80px;
 }
 
@@ -51,7 +51,7 @@ header.masthead {
  background-color: black !important;
  padding-top: 12rem;
  padding-bottom: 10rem;
- height: 640px !important;
+ height: 800px !important;
 }
 
 header.masthead .link-social {
@@ -101,7 +101,7 @@ header.masthead .link-social:active,header.masthead .link-social:focus,header.ma
 /* remove focus from portfolio thumnail when clicked */
 
 section#contact {
- background-color: #f8f9fa;
+ background-color: white;
 }
 
 section#contact .section-heading {
