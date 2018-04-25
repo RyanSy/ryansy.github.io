@@ -64,7 +64,11 @@ header.masthead .link-social:active,header.masthead .link-social:focus,header.ma
  color: #384047;
 }
 
-#arrow-down {
+#social-link-icons {
+  padding-bottom: 50px;
+}
+
+a#arrow-down {
     color: white !important;
 }
 

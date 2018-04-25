@@ -146,7 +146,8 @@ gulp.task('build', ['default'], function()
 
   // Custom CSS
   gulp.src([
-    './css/*.css'
+    './css/custom.min.css',
+    './css/theme.min.css'
   ])
   .pipe(gulp.dest('../css/'));
 
