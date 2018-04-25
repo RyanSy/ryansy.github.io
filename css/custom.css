@@ -63,8 +63,13 @@ header.masthead .link-social:active,header.masthead .link-social:focus,header.ma
  text-decoration: none;
  color: #384047;
 }
+
+#arrow-down {
+    color: white !important;
+}
+
 #portfolio {
-  background-color: #b7b7b7 !important;
+  background-color: #e0dddd !important;
 }
 
 #portfolio .portfolio-item a.portfolio-link:focus .portfolio-hover {
