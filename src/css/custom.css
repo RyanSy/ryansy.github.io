@@ -51,7 +51,7 @@ header.masthead {
  background-color: black !important;
  padding-top: 12rem;
  padding-bottom: 10rem;
- height: 800px !important;
+ height: 784px !important;
 }
 
 header.masthead .link-social {
@@ -62,6 +62,9 @@ header.masthead .link-social {
 header.masthead .link-social:active,header.masthead .link-social:focus,header.masthead .link-social:hover {
  text-decoration: none;
  color: #384047;
+}
+#portfolio {
+  background-color: #b7b7b7 !important;
 }
 
 #portfolio .portfolio-item a.portfolio-link:focus .portfolio-hover {
@@ -79,16 +82,13 @@ header.masthead .link-social:active,header.masthead .link-social:focus,header.ma
 }
 
 .portfolio-item, .portfolio-modal-image {
- border-style: solid !important;
- border-width: 1px !important;
+ border-style: none !important;
+ border-width: 0.1px !important;
  border-color: #eeeeee !important;
 }
 
 #portfolio .portfolio-item .portfolio-link {
  max-width: 480px;
- border-style: solid !important;
- border-width: 1px !important;
- border-color: #eeeeee !important;
  margin-left: 2px;
  margin-right: 2px;
 }
