@@ -127,6 +127,7 @@ section#contact .section-heading {
 
 button#sendMessageButton {
  background-color: #212529;
+ border: none !important;
 }
 
 button#sendMessageButton:focus {
