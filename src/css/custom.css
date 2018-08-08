@@ -31,7 +31,7 @@ button#menuButton:focus, button#menuButton:hover, button.close-modal-button:focu
 }
 
 a.nav-link:focus {
- color: gray !important;
+ color: #384047 !important;
 }
 
 :focus {
@@ -69,7 +69,15 @@ header.masthead .link-social:active,header.masthead .link-social:focus,header.ma
 }
 
 a#arrow-down {
-    color: white !important;
+  color: white !important;
+}
+
+a#arrow-down:focus {
+  color: #384047 !important;
+}
+
+a#arrow-down:hover {
+  color: #384047 !important;
 }
 
 #portfolio {
@@ -123,10 +131,6 @@ button#sendMessageButton {
 
 button#sendMessageButton:focus {
  background-color: #7f8990;
-}
-
-button#sendMessageButton:hover {
-   border: 0px;
 }
 
 @media (min-width: 992px) {
