@@ -22,6 +22,7 @@ $(function() {
       $.ajax({
         url: "https://formsubmit.io/send/ryan@ryansy.com",
         type: "POST",
+        headers: {  'Access-Control-Allow-Origin': 'https://ryansy.com' },
         data: {
           name: name,
           phone: phone,
