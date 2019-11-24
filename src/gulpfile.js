@@ -174,7 +174,6 @@ gulp.task('build', gulp.series('default', function(done)
   // Contact form JavaScript
   gulp.src([
     './js/jqBootstrapValidation.min.js',
-    './js/contact_me.min.js'
   ])
   .pipe(gulp.dest('../js/'));
 
